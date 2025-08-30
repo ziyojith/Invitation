@@ -1,0 +1,70 @@
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<div class="main-container">
+    <h2 class="title">Wedding <span>Invitation</span></h2>
+    <div class="con1">
+         
+         <img src="livinashi.jpeg"  id="img1" class="aos" [@fromLeft]="isVisible['img1'] ? 'visible':'hidden'">
+
+    </div>
+    <h2 class="names aos" id="name" [@fromRight]="isVisible['name'] ? 'visible':'hidden'">LIVIN<span>&</span>ASHIKA</h2>
+    
+    <div class="timespan aos" id = "time"[@fromLeft]="isVisible['time'] ? 'visible':'hidden'">
+        <h5 class="sentence">We're getting married in</h5>
+        <div class="time">
+            <span>{{days}}</span><h5>Days</h5>
+        </div>
+        
+        <div class="time">
+            <span>{{hours}}</span><h5>Hrs</h5>
+        </div>
+        
+        <div class="time">
+            <span>{{minutes}}</span><h5>Mins</h5>
+        </div>
+        
+        <div class="time">
+            <span>{{seconds}}</span><h5>Secs</h5>
+        </div>
+        <audio id="myAudio" loop>
+            <source src="song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+    </div>
+    <div class="bg">
+        <h2>Bride and Groom</h2>
+
+    </div>
+    <div class="groomSection">
+    <div class="groom aos" id="groom" [@fromLeft]="isVisible['groom'] ? 'visible':'hidden'">
+        <h4>GROOM</h4>
+    </div>
+    <div class="groomImgCont">
+        <img src="liv.jpg" class="groomImg aos" id="gImg" [@bloom]="isVisible['gImg'] ? 'visible':'hidden'" >
+    </div>
+    <div class="groomDet aos" id="gdet" [@fromRight]="isVisible['gdet'] ? 'visible':'hidden'">
+        <h2>M.J.Livin, B.E</h2>
+        <p>S/o Mr.Mohan & Mrs.T. Jaya Mini<br>Marthandam</p>
+        
+
+    </div>
+    </div>
+    <div class="brideSection">
+    <div class="bride aos" id="bride"[@fromLeft]="isVisible['bride'] ? 'visible':'hidden'">
+        <h4>BRIDE</h4>
+    </div>
+    <div class="brideImgCont">
+        <img src="liv.jpg" class="brideImg  aos" id="bImg" [@bloom]="isVisible['bImg'] ? 'visible':'hidden'" >
+    </div>
+    <div class="brideDet aos" id ="bdet"[@fromRight]="isVisible['bdet'] ? 'visible':'hidden'">
+        <h2>M.J.Ashika, B.E</h2>
+        <p>S/o Mr.Mohan & Mrs.T. Jaya Mini<br>Marthandam</p>
+        
+
+    </div>
+    </div>
+</div>
+
+    
