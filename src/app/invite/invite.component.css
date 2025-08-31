@@ -7,6 +7,11 @@
   background-color: #e9eeee;
   
 }
+.wi{
+  height: 100px;
+  margin-left: 19%;
+  margin-top: 30px;
+}
 .con1{  
     padding-left: 12%;
     padding-right: 5%;
@@ -32,6 +37,7 @@
   margin-left: 21%;
   font-size: 28px;
   color: #0a3d62;
+  
 
 }
 .names span{
@@ -120,8 +126,8 @@
   color: #ffffff;
   position: absolute;
   margin-left: 130px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: -15px;
   justify-content: center;
   align-items: center;
@@ -129,7 +135,8 @@
   z-index: 1;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  line-height: 10px;
+  line-height: 15px;
+  text-align: center;
  
 }
 .groomSection{
@@ -174,12 +181,12 @@
 .brideDet{
   background-color: #006985 ;
   font-size:12px ;
-  line-height: 10px;
+  
   color: #ffffff;
   position: absolute;
   margin-left: 130px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: -15px;
   justify-content: center;
   align-items: center;
@@ -187,6 +194,8 @@
   z-index: 1;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  line-height: 15px;
+  text-align: center;
  
 }
 .dp{
@@ -319,7 +328,7 @@ i {
   justify-content: center;
   text-align: center;
 }
-.bwish{
+.bwish{ 
   color:  #043644;
   text-align: center;
   display: flex;
@@ -332,14 +341,7 @@ a{
   color: #043644;
   text-decoration: none;
 }
-@media (max-width: 480px) {
-    
-      
-      .groomDet, .brideDet {
-        font-size: 9px;
-        
-      }
-    }
+
   /*Animation*/
   
   
