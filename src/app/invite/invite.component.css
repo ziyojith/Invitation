@@ -143,13 +143,14 @@
   font-size:12px ;
   color: #ffffff;
   position: absolute;
-  margin-left: 130px;
+  
+  right:0;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: -15px;
   justify-content: center;
   align-items: center;
-  top: 395px;
+  top: 388px;
   z-index: 1;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -202,13 +203,13 @@
   
   color: #ffffff;
   position: absolute;
-  margin-left: 130px;
+  right: 0;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: -15px;
   justify-content: center;
   align-items: center;
-  top: 400px;
+  top: 386px;
   z-index: 1;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
