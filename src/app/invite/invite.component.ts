@@ -57,9 +57,23 @@ export class InviteComponent implements OnInit, OnDestroy {
   minutes = 0;
   seconds = 0;
   countdown: any;
+  isplay = false;
   wedDate = new Date('2025-10-27T10:00:00').getTime();
   isVisible: { [key: string]: boolean } = {};
   
+  toggle(audio:HTMLAudioElement){
+    if(audio.paused)
+    {
+      audio.play();
+      this.isplay=true;
+    }
+    else{
+      audio.pause();
+      this.isplay=false;
+    }
+
+    
+  }
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 
@@ -80,7 +94,7 @@ export class InviteComponent implements OnInit, OnDestroy {
   ngOnDestroy(): void {
     clearInterval(this.countdown);
   }
-
+   
   startCount() {
     this.countdown = setInterval(() => {
       const calc = this.wedDate - new Date().getTime();
