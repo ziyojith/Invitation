@@ -399,6 +399,13 @@ a{
   color: #043644;
   text-decoration: none;
 }
+.locNam1{
+  max-width: 300px;
+  font-size: 12px;
+}
+.locNam1 span{
+  color: red;
+}
 
   /*Animation*/
   
