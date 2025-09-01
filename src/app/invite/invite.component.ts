@@ -36,7 +36,7 @@ import {
     trigger('bloom', [
       transition('hidden => visible', [
         style({ opacity: 0 }),
-        animate('500ms ease-in', style({ opacity: 1 }))
+        animate('200ms ease-in', style({ opacity: 1 }))
       ])
     ]),
     trigger('lettersAni', [
