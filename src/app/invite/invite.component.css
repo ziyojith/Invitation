@@ -69,7 +69,7 @@
 #img1{
     margin-top: 10%;
     height: 270px;
-    width: 280px;
+    width: auto;
     border-radius: 50%;
      border: 8px solid #ffffff;
      overflow: hidden;
