@@ -28,7 +28,8 @@
   color: gray;
   font-size: 18px;
   font-weight: normal;
-  margin-left: 27%;
+  display: flex;
+  justify-content: center;
   margin-top: -20px;
 }
 .title{
@@ -42,6 +43,7 @@
 .timespan{
   margin-top: 10%;
   display: flex;
+  justify-content: center;
 }
 .timespan button{
   margin-left: 20px;
