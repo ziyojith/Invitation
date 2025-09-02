@@ -15,12 +15,14 @@
 }
 .wi{
   height: 100px;
-  margin-left: 19%;
+  display: block;
+  margin: 0 auto;
   margin-top: 30px;
 }
 .con1{  
-    padding-left: 12%;
-    padding-right: 5%;
+    
+    display: flex;
+    justify-content: center;
 }
 .sentence{
   color: gray;
@@ -126,16 +128,19 @@
 }
 .groomImgCont{
   position: relative;
-  margin-left:5%;
+  
+  display: flex;
+  justify-content: center;
   
 
 }
+
 .groomImg{
   height: 380px;
-  width: 280px;
+  width: auto;
   margin-top: 46px;
   border: #006985 solid;
-  margin-left: 9%;
+  
 
 }
 .groomDet{
@@ -185,16 +190,17 @@
 }
 .brideImgCont{
   position: relative;
-  margin-left:5%;
+  display: flex;
+  justify-content: center;
   
 
 }
 .brideImg{
   height: 380px;
-  width: 280px;
+  width: auto;
   margin-top: 46px;
   border: #006985 solid;
-  margin-left: 8%;
+  
 
 }
 .brideDet{
