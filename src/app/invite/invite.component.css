@@ -168,6 +168,10 @@
 .groomSection{
   position: relative;
 }
+.groomDet span{
+  font-size: 12px;
+  font-style: italic;
+}
 .bride{
   background-color: #006985 ;
   font-size:15px ;
@@ -224,6 +228,10 @@
   line-height: 15px;
   text-align: center;
  
+}
+.brideDet span{
+  font-size: 12px;
+  font-style: italic;
 }
 .dp{
   margin-top: 12%;
