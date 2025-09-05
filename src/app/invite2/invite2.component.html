@@ -1,0 +1,170 @@
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+<div class="main-container">
+    
+    <img class="wi" src="wi.png">
+    <div class="con1">
+         
+         <img src="livinashi2.jpg"  id="img1" class="aos" [@fromLeft]="isVisible['img1'] ? 'visible':'hidden'">
+
+    </div>
+    
+        <div class="aos nameCont" id="name" [@fromRight]="isVisible['name'] ? 'visible':'hidden'">
+            <img class ="names" src="01.png">
+            <img class = "nameSide" src="b2.webp">
+        </div>
+    
+    <h5 class="sentence">We're getting married in</h5>
+    <div class="timespan aos" id = "time"[@fromLeft]="isVisible['time'] ? 'visible':'hidden'">
+        
+        <div class="time">
+            <span>{{days}}</span><h5>Days</h5>
+        </div>
+        
+        <div class="time">
+            <span>{{hours}}</span><h5>Hrs</h5>
+        </div>
+        
+        <div class="time">
+            <span>{{minutes}}</span><h5>Mins</h5>
+        </div>
+        
+        <div class="time">
+            <span>{{seconds}}</span><h5>Secs</h5>
+        </div>
+        
+        <audio #myAudio loop>
+            <source src="song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <button (click)="toggle(myAudio)" id="btn">
+            {{isplay ? "⏸" : "▶"}}
+        </button>
+
+    </div>
+    <div class="bg">
+        <h2>Bride and Groom</h2>
+
+    </div>
+    <div class="groomSection">
+    <div class="groom aos" id="groom" [@fromLeft]="isVisible['groom'] ? 'visible':'hidden'">
+        <h4>BRIDE</h4>
+    </div>
+    <div class="groomImgCont">
+        <img src="ashika.jpg" class="groomImg aos" id="gImg"  >
+    </div>
+    <div class="groomDet aos" id="gdet" [@fromRight]="isVisible['gdet'] ? 'visible':'hidden'">
+        <h2>S.Ashika, <span>D.Pharm</span></h2>
+        <p>D/o Mr.T.Sathish Raj & Mrs.J.Viji<br>Allamparavilai,Veeyanoor</p>
+        
+
+    </div>
+    </div>
+    <div class="brideSection">
+    <div class="bride aos" id="bride"[@fromLeft]="isVisible['bride'] ? 'visible':'hidden'">
+        <h4>GROOM</h4>
+    </div>
+    <div class="brideImgCont">
+        <img src="livin.jpg" class="brideImg  aos" id="bImg" >
+    </div>
+    <div class="brideDet aos" id ="bdet"[@fromRight]="isVisible['bdet'] ? 'visible':'hidden'">
+        <h2>M.J.Livin, <span>B.E</span></h2>
+        <p>S/o Mr.D.Mohan & Mrs.T. Jaya Mini<br>Kalpavilai,Marthandam</p>
+        
+        
+
+    </div>
+    </div>
+    
+    <div class="recep">
+        <h2>Reception</h2>
+
+    </div>
+    <div class="calIcon">
+        <img src="002.png" class='aos' id = "cal1Ic"[@fromLeft]="isVisible['cal1Ic'] ? 'visible':'hidden'">
+        <h2 class = "aos"id ="cal1Det"[@fromRight]="isVisible['cal1Det'] ? 'visible':'hidden'">26th October 2025, <br>Sunday.</h2>
+        
+
+    </div>
+    <div class="sepLine">
+        <img src="005.png" >
+    </div>
+    <div class="clockIcon">
+        <h2 class = "aos"id = "clock1Det"[@fromLeft]="isVisible['clock1Det'] ? 'visible':'hidden'">From <br>5:30 P.M Onwards</h2>
+        <img src="003.png" class='bx bx-time aos' id ="clock1Ic"[@fromRight]="isVisible['clock1Ic'] ? 'visible':'hidden'">
+        
+      
+    </div>
+    <div class="sepLine">
+        <img src="005.png" >
+    </div>
+    <div class="locIcon">
+        <img src="004.png" class=' aos' id = "loc1Ic"[@fromLeft]="isVisible['loc1Ic'] ? 'visible':'hidden'">
+        <h2 class="aos" id ="loc1Det"[@fromRight]="isVisible['loc1Det'] ? 'visible':'hidden'">Kerubai Mahal</h2>
+        
+
+    </div>
+    <div class="dp">
+        <h2>Date and Place</h2>
+
+    </div>
+
+    <div class="calIcon">
+        <img  src="002.png" class=' aos' id = "calIc"[@fromLeft]="isVisible['calIc'] ? 'visible':'hidden'">
+        <h2 class = "aos"id ="calDet"[@fromRight]="isVisible['calDet'] ? 'visible':'hidden'">27th October 2025, <br>Monday.</h2>
+       
+
+    </div>
+    <div class="sepLine">
+        <img src="005.png" >
+    </div>
+    <div class="clockIcon">
+        <h2 class = "aos"id = "clockDet"[@fromLeft]="isVisible['clockDet'] ? 'visible':'hidden'">At <br>11:30 A.M.</h2>
+        <img src="003.png" class='bx bx-time aos' id ="clockIc"[@fromRight]="isVisible['clockIc'] ? 'visible':'hidden'">
+        
+        
+
+    </div>
+    <div class="sepLine">
+        <img src="005.png" >
+    </div>
+    <div class="locIcon">
+        <img src="004.png" class='aos' id = "locIc"[@fromLeft]="isVisible['locIc'] ? 'visible':'hidden'">
+        <h2 class="aos" id ="locDet"[@fromRight]="isVisible['locDet'] ? 'visible':'hidden'">Chaicode C.S.I Pastorate Church, Veeyannoor. Attoor</h2>
+        
+
+    </div>
+
+        <div class="welcome">
+        <h3>Cordially solicit your esteemed presence and blessings on our wedding occasion</h3>
+    </div>
+    <div class="recep">
+        <h2>Best Wishes From</h2>
+
+    </div>
+    <div class="bwish">
+        <h3>S.Abisha<br>&Friends and Relatives</h3>
+
+    </div>
+    <div class="recep">
+        <h2>Location</h2>
+
+    </div>
+    <div class="loc" >
+        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.97920596996!2d77.28064599999999!3d8.3048647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0455f19686073d%3A0x8ddf449e77ab189!2zS2VydWJhaSBNYWhhbCDgrpXgrr_grrDgr4Hgrqrgr4gg4K6u4K654K6-4K6y4K-NIOCupOCuv-CusOCvgeCuruCuoyDgrq7grqPgr43grp_grqrgrq7gr40!5e0!3m2!1sen!2sin!4v1757051516849!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="locNam1"><a href="https://maps.app.goo.gl/cKV6eHURVrFnWScd8" target="_blank"><h2>Kerubai Mahal</h2></a></div>
+    </div>
+        <div class ="getDir"><a href="https://maps.app.goo.gl/cKV6eHURVrFnWScd8" target="_blank"><h2>Get Direction</h2></a></div>
+    <div class="loc" >
+        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.949164002484!2d77.27328491052909!3d8.307850991693034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0455db25a37a0b%3A0x5bcd58b994b3588e!2sChaicode%20C.S.I%20Pastorate%20Church%2C%20Veeyannoor.!5e0!3m2!1sen!2sin!4v1756735849797!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+        <div class="locNam1"><a href="https://maps.app.goo.gl/LsUDe7WcmPg2bnnb8" target="_blank"><h2>Chaicode C.S.I Pastorate Church, Veeyannoor. Attoor</h2></a></div>
+    </div>
+        <div class ="getDir"><a href="https://maps.app.goo.gl/LsUDe7WcmPg2bnnb8" target="_blank"><h2>Get Direction</h2></a></div>
+    
+    
+
+</div>
+
+    

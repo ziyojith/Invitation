@@ -1,0 +1,428 @@
+
+.main-container {
+  max-width: 400px;         
+  margin: -30px auto;                         
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e4f0f0;
+  background-image: url("/b1.png");
+ 
+  background-repeat: no-repeat;
+  background-position: right 250px top 0,left 280px top 550px;
+  overflow: hidden;
+  
+  
+}
+.wi{
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.con1{  
+    
+    display: flex;
+    justify-content: center;
+}
+.sentence{
+  color: gray;
+  font-size: 18px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+.title{
+  padding-top: 15%;
+   color: #0a3d62;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+.timespan{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+.timespan button{
+  margin-left: 20px;
+  width:50px;
+  border: #006985 solid;
+  font-size: 30px;
+  color: #006985;
+  text-align: center;
+}
+.nameCont{
+  display: flex;
+  overflow: hidden;
+}
+.names{
+  margin-left: 21%;
+  height: 100px;
+}
+.nameSide{
+  height: 175px;
+  
+  
+}
+#img1{
+    margin-top: 10%;
+    height: 270px;
+    width: auto;
+    border-radius: 50%;
+     border: 8px solid #ffffff;
+     overflow: hidden;
+}
+.title span{
+  display: block;
+  color: #3498db;
+  font-size: 18px;
+  font-weight: lighter;
+
+}
+
+.time{
+  display: inline-block;
+  font-size: 28px;
+  color: #0a3d62;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-left: 20px;
+  padding: 10px;
+  max-height: 5vh;
+  font-weight: bold;
+}
+.time h5{
+  font-size: 18px;
+  color: #3498db;
+  font-weight: normal;
+}
+.bg{
+  margin-top: 12%;
+  font-size: 20px;
+  background-color:  #006985;
+  padding:1px;
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+  height: 38px;
+  justify-content: center;
+  position: relative;
+}
+.groom{
+  background-color:  #006985 ;
+  font-size:15px ;
+  color: #ffffff;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left:75px;
+  padding-right: 75px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  top: 10px;
+  z-index: 1;
+  margin-top: 20px;
+
+}
+.groomImgCont{
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.groomImg{
+  height: 380px;
+  width: auto;
+  margin-top: 46px;
+  border: #006985 solid;
+  
+
+}
+.groomDet{
+  background-color: #006985 ;
+  font-size:12px ;
+  color: #ffffff;
+  position: absolute;
+  
+  right:0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: -15px;
+  justify-content: center;
+  align-items: center;
+  top: 388px;
+  z-index: 1;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  line-height: 15px;
+  text-align: center;
+ 
+}
+.groomSection{
+  position: relative;
+}
+.groomDet span{
+  font-size: 12px;
+  font-style: italic;
+}
+.bride{
+  background-color: #006985 ;
+  font-size:15px ;
+  color: #ffffff;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left:75px;
+  padding-right: 75px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  top: 10px;
+  z-index: 1;
+  margin-top: 20px;
+
+}
+.brideSection{
+  position:relative;
+  margin-top: 20px;
+}
+.brideImgCont{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+
+}
+.brideImg{
+  height: 380px;
+  width: auto;
+  margin-top: 46px;
+  border: #006985 solid;
+  
+
+}
+.brideDet{
+  background-color: #006985 ;
+  font-size:12px ;
+  
+  color: #ffffff;
+  position: absolute;
+  right: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: -15px;
+  justify-content: center;
+  align-items: center;
+  top: 386px;
+  z-index: 1;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  line-height: 15px;
+  text-align: center;
+ 
+}
+.brideDet span{
+  font-size: 12px;
+  font-style: italic;
+}
+.dp{
+  margin-top: 12%;
+  font-size: 20px;
+  background-color:  #006985;
+  padding:1px;
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+  height: 38px;
+  justify-content: center;
+  position: relative;
+}
+.calIcon
+{
+  margin-top: 30px;
+  display: flex;
+}
+.calIcon img{
+  height: 80px;
+  margin-left: 25px;
+}
+.sepLine{
+  margin:0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.sepLine img{
+  width: 300px;
+}
+.clockIcon
+{
+  margin-top: 30px;
+  display: flex;
+  margin-left: 50px;
+}
+.clockIcon img{
+  height: 80px;
+  margin-left: 100px;
+}
+.locIcon
+{
+  margin-top: 30px;
+  display: flex;
+}
+.locIcon img{
+  height: 80px;
+  margin-left: 25px;
+}
+
+
+.recep{
+  margin-top: 12%;
+  font-size: 20px;
+  background-color:  #006985;
+  padding:1px;
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+  height: 38px;
+  justify-content: center;
+  position: relative;
+}
+i {
+  margin-top: 40px;
+  font-size: 90px;
+  color:#006985;
+  transition: color 0.3s;
+}
+.calIcon h2{
+  display: inline-block;
+  margin-left: 50px;
+  color: #043644;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+.calIcon h1{
+  color: #006985;
+  margin-top: -15px;
+  display: flex;
+  justify-content: center;
+}
+.clockIcon h2{
+  display: inline-block;
+  margin-left: 50px;
+  color: #043644;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.clock1Icon h2{
+  display: inline-block;
+  margin-left: 80px;
+  color: #043644;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.clockIcon i{
+  margin-left: 100px;
+}
+.clockIcon h1{
+  color: #006985;
+  margin-top: -15px;
+  display: flex;
+  justify-content: center;
+}
+.clock1Icon h1{
+  color: #006985;
+  margin-top: -15px;
+  display: flex;
+  justify-content: center;
+}
+.locIcon h2{
+  display: inline-block;
+  margin-left: 30px;
+  color: #043644;
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.locIcon h1{
+  color: #006985;
+  margin-top: -15px;
+  display: flex;
+  justify-content: center;
+}
+.welcome{
+  display:flex;
+  justify-content: center;
+  border-radius: 20px;
+  border: #006985 solid;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: #043644;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 40px;
+  font-size: 15px;
+  text-align: center;
+}
+.loc{
+  margin-top: 30px;
+  margin-left: 35px;
+  border: #006985 solid 6px;
+  margin-right: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  color: #043644;
+  justify-content: center;
+  text-align: center;
+
+  
+}
+.getDir{
+   margin-top: 15px;
+  margin-left: 48px;
+  border: #006985 solid 6px;
+  padding-top: 1px;
+  margin-right: 40px;
+  border-radius: 10px;
+  color: #043644;
+  justify-content: center;
+  text-align: center;
+}
+.bwish{ 
+  color:  #043644;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  padding-top:20px;
+  line-height: 30px;
+}
+a{
+  color: #043644;
+  text-decoration: none;
+}
+.locNam1{
+  max-width: 300px;
+  font-size: 12px;
+}
+.locNam1 span{
+  color: red;
+}
+
+  /*Animation*/
+  
+  
