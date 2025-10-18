@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { InviteComponent } from './invite/invite.component';
 import { Invite2Component } from './invite2/invite2.component';
 import { HomeComponent } from './home/home.component';
+import { LightboxModule } from 'ngx-lightbox';
+
+
 
 @NgModule({
   declarations: [
@@ -17,7 +20,8 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LightboxModule
   ],
   providers: [
     provideClientHydration()

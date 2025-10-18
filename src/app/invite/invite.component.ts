@@ -1,5 +1,6 @@
 import { Component, OnInit, OnDestroy, Inject, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
+import { Lightbox } from 'ngx-lightbox';
 import {
   trigger, style, animate, transition, query, stagger
 } from '@angular/animations';
@@ -74,8 +75,24 @@ export class InviteComponent implements OnInit, OnDestroy {
 
     
   }
+  albums : any[]=[];
 
-  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+  constructor(@Inject(PLATFORM_ID) private platformId: Object,private lightbox:Lightbox) {
+    for(let i=1;i<=9;i++)
+    {
+      const src='img${i}.jpg';
+      const thumb = src;
+      this.albums.push({src,thumb});
+
+    }
+  }
+  open(index:number):void{
+    this.lightbox.open(this.albums,index);
+
+  }
+    close(): void {
+    this.lightbox.close();
+    }
 
   ngOnInit(): void {
     const initialCalc = this.wedDate - new Date().getTime();
