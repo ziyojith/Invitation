@@ -7,6 +7,7 @@ import { InviteComponent } from './invite/invite.component';
 import { Invite2Component } from './invite2/invite2.component';
 import { HomeComponent } from './home/home.component';
 import { LightboxModule } from 'ngx-lightbox';
+import { BirthdayComponent } from './birthday/birthday.component';
 
 
 
@@ -15,13 +16,14 @@ import { LightboxModule } from 'ngx-lightbox';
     AppComponent,
     InviteComponent,
     Invite2Component,
-    HomeComponent
+    HomeComponent,
+    BirthdayComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    LightboxModule
+   
   ],
   providers: [
     provideClientHydration()
